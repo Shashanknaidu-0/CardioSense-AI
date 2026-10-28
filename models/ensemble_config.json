@@ -1,0 +1,15 @@
+{
+    "weights": {
+        "LightGBM": 0.25,
+        "XGBoost": 0.25,
+        "FT-Transformer": 0.2,
+        "SAINT": 0.15,
+        "PyTorch Deep Tabular": 0.15
+    },
+    "thresholds": {
+        "default": 0.5,
+        "optimal_f1": 0.295,
+        "high_precision": 0.49999999999999994,
+        "clinical_screening": 0.21499999999999997
+    }
+}

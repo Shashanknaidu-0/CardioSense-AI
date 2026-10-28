@@ -1,0 +1,16 @@
+{
+    "input_dimension": 20,
+    "ft_transformer": {
+        "d_token": 32,
+        "n_blocks": 2,
+        "n_heads": 4,
+        "d_ffn_factor": 2.0,
+        "dropout": 0.1
+    },
+    "saint": {
+        "d_token": 32,
+        "n_blocks": 2,
+        "n_heads": 4,
+        "dropout": 0.1
+    }
+}

@@ -1,0 +1,17 @@
+streamlit>=1.38
+pandas>=2.0
+numpy>=1.26
+
+# Pinned exactly: preprocessing/imputer.pkl and preprocessing/scaler.pkl
+# were pickled with scikit-learn 1.6.1. Newer scikit-learn versions
+# have changed internal (private) attributes on these classes, which
+# breaks unpickling with an AttributeError. If you must use a newer
+# scikit-learn, you will need to re-fit and re-save imputer.pkl /
+# scaler.pkl with that version instead.
+scikit-learn==1.6.1
+
+joblib>=1.3
+lightgbm>=4.0
+xgboost>=2.0
+torch>=2.1
+shap>=0.45
